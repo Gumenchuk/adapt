@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@import url(./reset.css);
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.conteiner {
+	max-width: 1170px;
+
+	margin: 0 auto;
+
+
+}
+
+.header {
+	background-color: #F1F1F1;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu_ul{
+	display: flex;
+	column-gap: 50px;
+	margin-top: 60px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.logo{
+	margin-top: 46px;
+	font-size: 32px;
+	font-weight: 700;
+	position: relative;
+}
+
+.logo:after{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 105;
+	top: 35;
+	background-color: #FDA300;
+	content: '';
+	border-radius: 50%;
+	display: block;
+
+}
+
+/*content start*/
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 76px;
+	column-gap: 194px;
+}
+
+.content_text{
+	max-width: 500px;
+}
+
+.content_text h1{
+	font-weight: 600;
+	font-size: 44px;
+	margin-bottom: 20px;
+	margin-top: 203px;
+}
+
+.content_text p{
+	font-weight: 400;
+	font-style: 14px;
+}
+
+/*content end*/
+
+/*service start*/
+.service{
+	max-width: 1170px;
+	
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.service{
+	display: flex;
+	justify-content: space-between;
+}
+
+.service_card img{
+	width: 68px;
+	height: 68px;
+}
+
+.service_card h1{
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.service_card p{
+	font-weight:400;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+/*service end*/
+
+/*portfolio start*/
+.wrapper{
+	background-color: #F1F1F1;
+}
+
+.portfolio{
+	max-width: 930px;
+	border: 1px solid #F1F1F1;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.portfolio h1{
+	font-weight: 600;
+	font-size: 34px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	margin-left: 393px;
+}
+
+.home{
+	max-width: 930px;
+	border: 1px solid #F1F1F1;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.port h1{
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.reebook {
+	max-width: 930px;
+	border: 1px solid #F1F1F1;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.web{
+	max-width: 930px;
+	border: 1px solid #F1F1F1;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+
+
+/*portfolio end*/
+
+/*footter start*/
+.wrap h1{
+	font-weight: 600;
+	font-size: 34px;
+	margin-bottom: 20px;
+	margin-top: 90px;
+	text-align: center;
+}
+
+.wrap h2{
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.wrap button{
+	background-color: black;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+	position: relative;
+	width: 180px;
+	height: 42px;
+	display: block;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	max-width: 342px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.txt{
+	margin-bottom: 90px;
+}
+
+.txt h1{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 40px;
+	text-align: center;
+	color: #828282;
+}
+
+/*footter end*/
